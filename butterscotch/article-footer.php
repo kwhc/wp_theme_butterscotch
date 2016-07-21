@@ -68,7 +68,7 @@
             </li>
             <li class="email container">
                 <h4>Stay Posted</h4>
-                <p>Sign up for the Astor Wines & Spirits email list to hear about sales and free tastings.</p>
+                <p>Sign up for the Astor Wines &amp; Spirits email list to hear about sales and free tastings.</p>
                 <div class="createsend-button" style="height:22px;display:inline-block;" data-listid="r/7E/EC4/6AE/350309872C70E028"></div>
                 <script type="text/javascript">
                 (function () { var e = document.createElement('script');

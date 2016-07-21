@@ -11,7 +11,7 @@ get_header(); ?>
 <div class="content-page">
 	<?php
 		$post = $wp_query->post;
-		
+
 		if ( in_category('recipecard') || 'recipes' == get_post_type() ){
 			 get_template_part( 'loop', 'recipecard' );
 		} elseif (in_category('tuesdaysale')){
@@ -19,7 +19,8 @@ get_header(); ?>
 		} else{
 			get_template_part('loop', 'single');
 		}
-		
+
  	?>
-    
+
+	</div>
 </div>

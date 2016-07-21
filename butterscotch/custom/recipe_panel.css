@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.recipe_panel .description {  
+  display: none;  
+}  
+.recipe_panel label {  
+  display: block;  
+  font-weight: bold;  
+  margin: 6px;  
+  margin-bottom: 0;  
+  margin-top: 12px;  
+}  
+.recipe_panel label span {  
+  display: inline;  
+  font-weight: normal;  
+}  
+.recipe_panel span {  
+  color: #999;  
+  display: block;  
+}  
+.recipe_panel textarea,  
+.recipe_panel input[type='text'] {  
+  margin-bottom: 3px;  
+  width: 100%;  
+}  
+.recipe_panel h4 {  
+  color: #999;  
+  font-size: 1em;  
+  margin: 15px 6px;  
+  text-transform:uppercase;  
+}  

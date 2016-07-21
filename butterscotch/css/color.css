@@ -1,0 +1,230 @@
+/* Color Styles for Butterscotch */
+
+body{
+	background-color: #fafafa;
+	color: #333;
+}
+
+a{
+	color: inherit;
+}
+
+a:hover{
+	color: #888;
+}
+
+.marquee{
+	color: #fefefe;
+}
+
+.category-food h4, .category-pairings h4, .single .category-food a, .category-food .perenial h3
+{
+	color: rgb(255,78,30); /* Orange */
+}
+
+.single .category-food a:hover, .category-food h4 a:hover, .category-food h3 a:hover{
+	color: rgb(238, 176, 159) !important; /* Light Orange */
+}
+
+header#site-head nav ul li a.food:hover, header#site-head nav ul li a.food-selected
+{
+	background-color: rgb(255,78,30) /* Green */;
+}
+
+.category-spirits-cocktails h4, .category-spirits-cocktails .hub .columns ul li h3, .single .category-spirits-cocktails a, .category-spirits-cocktails .perenial h3
+{
+	color: rgb(184,195,67);
+}
+
+.category-spirits-cocktails h4 a:hover, .single .category-spirits-cocktails a:hover, .category-spirits-cocktails h3 a:hover
+{
+	color: rgb(215,220,152) /* Light Green */;
+}
+
+header#site-head nav ul li a.spirits-cocktails:hover, header#site-head nav ul li a.spirits-cocktails-selected
+{
+	background-color: rgb(184,195,67);
+}
+
+.category-wine-sake h4, .category-wine-sake .hub .perenial ul li h3, .single .category-wine-sake a, .index .perenial .category-wine-sake h3
+{
+	color: rgb(152,0,46) /* Burgundy */;
+}
+
+.single .category-wine-sake a:hover, .category-wine-sake h4 a:hover, .category-wine-sake h3 a:hover{
+	color: rgb(148,84,103) /* Light Burgundy */;
+}
+
+header#site-head nav ul li a.wine-sake:hover, header#site-head nav ul li a.wine-sake-selected
+{
+	background-color: rgb(152,0,46);
+}
+
+.category-news h4, .single .category-news a, .category-news .perenial h3, .index .perenial .category-news h3
+{
+	color: orange;
+}
+
+header#site-head nav ul li a.news:hover, header#site-head nav ul li a.news-selected
+{
+	background-color: orange;
+}
+
+.category-news h4 a:hover, .single .category-news a:hover, .category-news h3 a:hover
+{
+	color: rgb(247, 194, 98);
+}
+
+header#site-head nav ul li a.misc:hover
+{
+	background-color: rgb(41,147,177) /* Turquoise */;
+}
+
+header#site-head, header#site-head a
+{
+	background-color: #333;
+	color: #fefefe !important;
+}
+
+	header#site-head span.site-desc, header#site-head span a:hover
+	{
+		color: #777;
+	}
+
+header#site-head nav ul li
+{
+	border-left: solid 1px #fefefe;
+}
+
+header#site-head ul ul li a{
+	border-top: solid 1px #fefefe;
+}
+
+header#site-head nav ul li:last-child
+{
+	border-right: solid 1px #fff;
+}
+
+footer h4
+{
+	color: inherit !important;
+}
+
+.single footer .content-container
+{
+	background-color: #fafafa;
+}
+
+article footer ul li
+{
+	border-right: 1px dotted #ddd;
+}
+
+.single article footer .fade
+{
+	border-bottom: 1px dotted #ddd;
+}
+
+.single .fade
+{
+	/* For Mozilla */
+	 background-image: -moz-linear-gradient(rgba(250,250,250,1), rgba(250,250,250,.25)) !important;
+	/* For WebKit */
+	 background-image: -webkit-linear-gradient(bottom, rgba(250,250,250,1), rgba(250,250,250,.02)) !important;
+	/* For lt IE8 */
+	 filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0,
+	
+	startColorstr='#fafafa', endColorstr='#fafafa' !important);
+	/* For gt IE8 */
+	 -moz-filter: progid:DXImageTransform.Microsoft.gradient(gradientyype=0,
+	
+	startColorstr='#fafafa', endColorstr='#fafafa') !important;
+	
+	background: linear-gradient(bottom, rgba(250,250,250,1), rgba(250,250,250,.25)); 
+}
+	
+article footer ul li:first-child
+{
+	border-left: 1px dotted #ddd;
+}
+
+#article-footer article.teaser{
+	border: none !important;
+}
+
+article .article-recipecard .recipe-card
+{
+	border: 1px dashed #aaa;
+}
+
+.hub-page .perenial{
+	/* border-left: 1px dotted #aaa;  */
+}
+
+.page-title, .page-title a, .viewmore, time, .paging-nav{
+	color: #999 !important;
+}
+
+.page-content{
+	border-top: dotted 1px #ddd;
+}
+
+.author-profile .page-content{
+	border-top: none;
+}
+
+.marquee article{
+	background: rgba(0,0,0,0.8);
+}
+
+/* Hub Styles
+*******************************************/
+.hub
+{
+	/* border-top: 1px dotted #777; */
+}
+
+.article h1
+{
+	color: #aaa;
+}
+
+.loop-column article.teaser, .perenial ul li, .marquee, .contributors-page .teaser, .page-title-container, .search-results .teaser, .author-profile article, ul#productList li
+{
+	border-bottom: 1px dotted #777;
+}
+
+	.perenial ul li ul li, .perenial ul li:last-child, ul#productList li:last-child{
+		border-bottom: none;
+	}
+
+.hub .columns
+{
+	border-left: 1px dotted #777;
+}
+
+.hub .columns ul li:last-child
+{
+	border-bottom: none;
+}
+
+.hub .columns ul li ul li
+{
+	border-bottom: none;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+.index .column-container, .hub .column-container{
+	border-right: 1px dotted #aaa;
+}
+ }
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }

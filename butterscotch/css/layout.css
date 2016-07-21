@@ -109,13 +109,13 @@ header#site-head nav ul li{
 		padding-left: 12px;
 		padding-right: 12px;
 	}
-	
+
 	header#site-head span, header#site-head nav ul li a
 	{
 		padding-bottom: 12px;
 		padding-top: 12px;
 	}
-	
+
 	header#site-head nav ul li:last-child a{
 		padding-bottom: 10px;
 	}
@@ -131,20 +131,20 @@ header#site-head nav ul ul{
 header#site-head ul ul{
 	position: absolute;
 	top: 38px;
-	right: 0; 
+	right: 0;
 }
 
 	header#site-head ul ul li{
 		display: block !important;
 		float: none;
 	}
-	
+
 		header#site-head ul ul li a{
 			display: block !important;
 			width: 120px;
 		}
 
-header#site-head span, header#site-head nav, header#site-head ul, header#site-head nav ul li, header#site-head nav ul li a 
+header#site-head span, header#site-head nav, header#site-head ul, header#site-head nav ul li, header#site-head nav ul li a
 {
 	display: inline-block;
 }
@@ -249,7 +249,7 @@ article img.article-main{
 	margin-bottom: 30px;
 }
 
-ul#productList{	
+ul#productList{
 }
 
 ul#productList img{
@@ -324,7 +324,7 @@ article footer li.container h4
 	height: 420px;
 	width: 924px;
 	overflow: hidden;
-	position: relative;	
+	position: relative;
 }
 
 .marquee article{
@@ -370,6 +370,8 @@ article footer li.container h4
 {
 	/* float: left; */
 	min-height: 150px;
+	height:183px;
+	overflow-y:hidden;
 }
 
 /* Hub
@@ -390,7 +392,7 @@ article footer li.container h4
 
 .loop-column article.category-winegeek, .loop-column article.category-spiritsgeek, .loop-column article.category-sakegeek, .loop-column article.category-cocktailgeek
 {
-	min-height: 60px !important;	
+	min-height: 60px !important;
 }
 
 .hub article.category-newandapproved img{
@@ -508,7 +510,7 @@ article footer li.container h4
 *********************************************/
 
 /* Large desktop */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
 
 .content-container
 {
@@ -531,9 +533,9 @@ article footer li.container h4
 }
 
 }
- 
+
 /* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) { 
+@media (min-width: 768px) and (max-width: 979px) {
 
 .content-container
 {
@@ -556,13 +558,13 @@ article footer li.container h4
 }
 
  }
- 
+
 /* Landscape phone to portrait tablet */
-@media (max-width: 767px) {  
+@media (max-width: 767px) {
 	#site-head .site-desc{
 		display: none;
 	}
 }
- 
+
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }

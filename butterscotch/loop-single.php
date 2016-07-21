@@ -49,7 +49,7 @@
 
                   <?php the_content(); ?>
 
-									<div style="padding-bottom:64px;">
+									<div style="padding-bottom:64px;padding-top:64px;">
 										<span class="pull-left"><?php previous_post_link('%link','<i class="fa fa-angle-double-left"></i> Previous Post','no'); ?></span>
 										<span class="pull-right"><?php next_post_link('%link','Next Post <i class="fa fa-angle-double-right"></i>','no'); ?></span>
 									</div>
